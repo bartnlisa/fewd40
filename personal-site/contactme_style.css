@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#leftside {
+	max-width: 50%;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 2000px;
+	max-height: 400px;
+}
+
+
+
+h1{
+	font-family: brusher;
+	font-size: 66px;
+	color: CD8B34;
+	text-align: center;
+	padding-top: 200px;
+}
+
+nav{
+	font-family: helvetica;
+	font-size: 16px;
+	padding-top:100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+a {	text-decoration: none;
+	color: E08E79;
+}
+
+li{
+	margin: 1.5em 0;
+}
+
+
+#rightside {
+	min-width: 500px;
+	max-height: 1100px;
+	max-width: 50%;
+	float:right;	
+}
+
+#contact {
+	padding-top: 200px;
+}
+
+img{
+	padding-left: 20px;
+}
