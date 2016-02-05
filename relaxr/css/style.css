@@ -1,7 +1,7 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Relaxr
+Client: Your Relaxr
+Author: Shirley Xiao
 Developer @GA in NYC
 */
 
@@ -15,6 +15,7 @@ Developer @GA in NYC
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
+     font: Open Sans;
 }
 
 .{
@@ -54,8 +55,9 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+/*     background-image: url("header_jpg");
+*/     /*background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);*/
+  /*   background-size: cover;*/
 }
 
 
@@ -65,20 +67,200 @@ body {
 
 /* Center the container */
 #container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
-
+  width: 960px;
+  margin: 0 auto;
+  height:700px;
 }
 
 header {
+  background: url(../img/header_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
 
+h1{
+  font-size: 24px;
+  font-weight: 800;
+  color: white;
+  padding: 30px;
+  padding-left: 
+}
+
+h2{
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  margin: auto;
+  padding: 100px;
+  text-align: center;
+}
+
+
+#button{
+  margin: auto;
+  text-align: center;
+}
+
+.button{
+  font-size: 14px;
+  border-radius: 5px;
+  font-weight: 800;
+  width:200px;
+  height:40px;
+  
+  background-color: #f9e42e;
+  border:none;
+  color:#121212;
+  padding: 15px 32px;
+  margin: 4px 2px;  
+  text-decoration: none;
+}
+
+.benefits{
+  background-color: #f0efef;
+  float:left;
+  clear: auto;
+  width:100%;
+  height:300px;
+  padding-left: 60px;
+  padding-top: 50px;
+
+}
+
+.benefits li{
+  color: gray;
+  font-size: 13px;
+  font-weight: 300px;
+}
+
+.benefits p{
+  color: gray;
+  font-size: 13px;
+  font-weight: 300px;
+  padding-top: 10px;
+}
+
+.benefits ul{
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+
+.testimonial{
+  background-color: blue;
+  float:left;
+  clear: auto;
+  width:100%;
+  height:300px;
+  background: url(../img/testimonial_bg.jpg);
+  text-align: center;
+}
+
+#amanda{
+  font-weight: 600px;
+  font-size: 18px;
+  padding-top: 0px;
+}
+
+.sign-up{
+  background-color: #f9e42e;
+  float:left;
+  clear: auto;
+  width:100%;
+  height:100px;
+  text-align: center;
+}
+
+#dan{
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
+}
+
+
+.dan{
+  font-size: 14px;
+  border-radius: 5px;
+  font-weight: 800;
+  width:200px;
+  height:40px;
+  
+  background-color: #033048;
+  border:none;
+  color:white;
+  padding: 15px 32px;
+  margin: 4px 2px;  
+  text-decoration: none;
+}
+
+.testimonial h4{
+  font-size: 18px;
+  font-weight: 300;
+  color: white;  
+  padding-top: 80px;
+  opacity: .6;
+  font-style: italic;
+}
+
+.testimonial p{
+  font-size: 20px;
+  font-weight: 300;
+  color: white;  
+  padding-top: 80px;
+}
+
+
+.sign-up p{
+  margin: auto;
+}
+
+#logo2{
+  padding-top:30px;
+  color:#f9e42e;
 }
 
 footer {
+  background-color: #2E2E2E;
+  float:left;
+  clear: auto;
+  width:100%;
+  height:300px;
+  text-align: center;
 
 }
+
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+
+
+footer p{
+  padding-top: 50px;
+  font-size: 9px;
+  font-weight: 600;
+  color:white;
+}
+
+footer ul{
+  padding-top: 20px; 
+}
+footer li{
+  list-style-type: none;
+  display: inline;
+  padding-right: 20px;
+}
+
+/*p{
+  font-size: 14px;
+  font-weight: 800;
+  color:white;
+}*/
+
+h3{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
