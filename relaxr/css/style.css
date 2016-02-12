@@ -15,11 +15,6 @@ Developer @GA in NYC
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
-     font: Open Sans;
-}
-
-.{
-  background color: #f0efef;
 }
 
 /* Clear fix hack */
@@ -51,14 +46,20 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+  color: #f0efef;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+}
 /*     background-image: url("header_jpg");
 */     /*background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);*/
   /*   background-size: cover;*/
-}
+
 
 
 /******************************************
@@ -66,168 +67,129 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
+.container {
   width: 960px;
   margin: 0 auto;
-  height:700px;
+}
+
+.logo{
+  font-size: 48px;
+  font-weight: 800;
 }
 
 header {
-  background: url(../img/header_bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;  
+  background: url(../img/header_bg.jpg) no-repeat top center #131e27;
+  height:700px;
+  padding-top: 32px;
 }
 
-h1{
-  font-size: 24px;
-  font-weight: 800;
-  color: white;
-  padding: 30px;
-  padding-left: 
+header .logo{
+  color:#fff;
 }
 
-h2{
-  font-size: 24px;
+header h2{
+  font-size: 42px;
   font-weight: 600;
   color: white;
-  margin: auto;
-  padding: 100px;
+  margin: 150px 0 90px;
   text-align: center;
 }
 
 
-#button{
-  margin: auto;
-  text-align: center;
-}
 
 .button{
-  font-size: 14px;
   border-radius: 5px;
   font-weight: 800;
-  width:200px;
-  height:40px;
-  
-  background-color: #f9e42e;
-  border:none;
-  color:#121212;
-  padding: 15px 32px;
-  margin: 4px 2px;  
-  text-decoration: none;
+  padding: 14px 0px;
+  width:250px;
+  font-size: 24px;
+  text-align: center;
+  display:block;
+  margin:0 auto;
+}
+
+.yellow{ 
+  background: #f9e42e;
+  color:#033048;
+}
+
+.blue {
+  background: #033048;
+  color: #fff;   
 }
 
 .benefits{
-  background-color: #f0efef;
-  float:left;
-  clear: auto;
-  width:100%;
-  height:300px;
-  padding-left: 60px;
-  padding-top: 50px;
-
+  padding: 80px 0 80px;
 }
 
-.benefits li{
-  color: gray;
-  font-size: 13px;
-  font-weight: 300px;
+.benefits h3{
+  color: #033048;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 40px;
 }
 
-.benefits p{
-  color: gray;
-  font-size: 13px;
-  font-weight: 300px;
-  padding-top: 10px;
+.benefits p, .benefits ul{
+  width: 850px;
 }
 
 .benefits ul{
-  padding-left: 50px;
-  padding-top: 20px;
+  list-style: disc;
+  margin:30px 0 0 80px;
 }
 
 
 .testimonial{
-  background-color: blue;
-  float:left;
-  clear: auto;
-  width:100%;
-  height:300px;
-  background: url(../img/testimonial_bg.jpg);
-  text-align: center;
+  background: url(../img/testimonial_bg.jpg) no-repeat top center #071324;
+  padding: 70px 0 70px;
+  color:white;
 }
 
-#amanda{
-  font-weight: 600px;
-  font-size: 18px;
-  padding-top: 0px;
+blockquote{
+  font-weight: 300;
+  font-size: 36px;
+  font-style: italic;
+  text-align:center;
+  width:580px;
+  margin:0 auto;
+  opacity: .7;
+}
+
+blockquote span{
+  font-weight:600;
+  display: block;
+  font-style: normal;
 }
 
 .sign-up{
   background-color: #f9e42e;
-  float:left;
-  clear: auto;
-  width:100%;
-  height:100px;
+  padding:50px;
   text-align: center;
-}
-
-#dan{
-  margin: auto;
-  text-align: center;
-  padding-top: 40px;
-}
-
-
-.dan{
-  font-size: 14px;
-  border-radius: 5px;
-  font-weight: 800;
-  width:200px;
-  height:40px;
-  
-  background-color: #033048;
-  border:none;
-  color:white;
-  padding: 15px 32px;
-  margin: 4px 2px;  
-  text-decoration: none;
-}
-
-.testimonial h4{
-  font-size: 18px;
-  font-weight: 300;
-  color: white;  
-  padding-top: 80px;
-  opacity: .6;
-  font-style: italic;
-}
-
-.testimonial p{
-  font-size: 20px;
-  font-weight: 300;
-  color: white;  
-  padding-top: 80px;
-}
-
-
-.sign-up p{
-  margin: auto;
-}
-
-#logo2{
-  padding-top:30px;
-  color:#f9e42e;
 }
 
 footer {
   background-color: #2E2E2E;
-  float:left;
-  clear: auto;
-  width:100%;
-  height:300px;
+  padding: 60px 0 45px;
   text-align: center;
-
 }
+
+footer .logo{
+  margin-bottom: 60px;
+  color:#f9e42e;
+}
+
+footer ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px 50px;
+}
+
+footer p{
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
 
 
 /******************************************
@@ -236,31 +198,6 @@ footer {
 
 
 
-footer p{
-  padding-top: 50px;
-  font-size: 9px;
-  font-weight: 600;
-  color:white;
-}
 
-footer ul{
-  padding-top: 20px; 
-}
-footer li{
-  list-style-type: none;
-  display: inline;
-  padding-right: 20px;
-}
-
-/*p{
-  font-size: 14px;
-  font-weight: 800;
-  color:white;
-}*/
-
-h3{
-  font-size: 20px;
-  font-weight: 600;
-}
 
 
