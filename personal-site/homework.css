@@ -35,6 +35,10 @@ h2{
 	padding-top: 100px;
 }
 
+#rightside{
+	margin-top: 300px;
+}
+
 nav{
 	font-family: helvetica;
 	font-size: 24px;
@@ -49,6 +53,7 @@ a {	text-decoration: none;
 
 li{
 	margin: 1.5em 0;
+	list-style: none;
 }
 
 
@@ -60,7 +65,4 @@ li{
 	float: left;
 }
 
-.homework{
-	margin-top: 300px;
-}
 
