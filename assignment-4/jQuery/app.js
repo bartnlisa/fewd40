@@ -4,7 +4,7 @@ $(document).ready(function() {
 	
 	$('.readmore').click(function(){
 		$(".readmore").hide();
-		$("#show-this-on-click").slideDown();
+		$("#show-this-on-click").slideDown("slow", function(){});
 		$(".readless").show()
 	})
 
