@@ -1,7 +1,7 @@
 
 
 $(document).ready(function() {
-	
+
 	$('.readmore').click(function(){
 		$(".readmore").hide();
 		$("#show-this-on-click").slideDown("slow", function(){});
@@ -20,10 +20,13 @@ $(document).ready(function() {
 		$(".learnmore").hide();
 	})
 
-	$(".button blue").on('click', function(event){
-    event.preventDefault();});
+	// $(".button blue").on('click', function(event){
+ //    event.preventDefault();});
+
 
 });
 
+	
+// function(event){event.preventDefault();
 
 
